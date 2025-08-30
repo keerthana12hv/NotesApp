@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Notes App (Local)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Notes App</h1>
+    <textarea id="note-input" placeholder="Write your note here..."></textarea>
+    <button onclick="addNote()">Add Note</button>
+    <input id="search" placeholder="Search notes..." onkeyup="searchNotes()" />
+    <div id="notes-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
